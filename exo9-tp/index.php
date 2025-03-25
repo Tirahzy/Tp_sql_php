@@ -75,5 +75,11 @@ $profs = $queryprof->fetchAll(PDO::FETCH_ASSOC);
     </tbody>
 </table>
 
+<div class="mt-8 text-center">
+    <a href="login.php">
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-lg">Se connecter</button>
+    </a>
+</div>
+
 </body>
 </html>
